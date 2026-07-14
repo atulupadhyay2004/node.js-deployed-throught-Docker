@@ -33,14 +33,7 @@
 
 ---
 
-## 🔄 Workflow
 
-```mermaid
-flowchart LR
-    A[Write Code] --> B[Write Dockerfile]
-    B --> C[docker build -t my-app .]
-    C --> D[docker run -p 3000:3000 my-app]
-    D --> E[App Live on localhost:3000 ✅]
 
 
 🤝 Contributing
